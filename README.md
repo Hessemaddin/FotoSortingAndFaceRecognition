@@ -27,7 +27,7 @@ nachtragen und alle Fotos nach `Jahr\Monat\Tag` sortieren.
    python -m pip install onnxruntime pillow numpy openpyxl
    ```
    Nur für das alte Modell (`MODELL = "face_recognition"`) zusätzlich `face_recognition`
-   (braucht cmake, Visual Studio Build Tools und Git).
+   (braucht cmake, Visual Studio Build Tools und Git). Diese Modell zeigte sich jedoch in meinen Tests sehr viel langsamer und weniger treffsicher, insofern würde ich davon abraten.
 3. InsightFace-Modelle (ca. 280 MB) herunterladen:
    `https://github.com/deepinsight/insightface/releases/download/v0.7/buffalo_l.zip`
    und so entpacken, dass `modelle\buffalo_l\det_10g.onnx` und
