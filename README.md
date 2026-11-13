@@ -74,5 +74,5 @@ schließenden Anführungszeichen.
 
 - `fotos_sortieren.py` auf dem echten Bestand testen (erst Trockenlauf).
 - `exif_datum_nachtragen.py`: Datum aus Pfaden wie `…\2019\03\02\` lesen.
-- `auswertung_erkennung.py` an das aktuelle Excel-Layout anpassen.
+- `fotos_sortieren.py` so anpassen, dass die mittels Gesichtserkennung erkannten Namen in die jeweiligen EXIF-Daten geschrieben werden.
 - Später: Umzug auf NAS + Mini-PC (Linux).
