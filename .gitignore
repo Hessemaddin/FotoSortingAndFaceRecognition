@@ -1,0 +1,47 @@
+# ===============================================================
+# Was NIE auf GitHub landen soll
+# ===============================================================
+
+# Persönliche Einstellungen (Namen, Geburtsdaten)
+einstellungen_privat.py
+
+# Fotos und Videos (alle Ordner, alle Schreibweisen)
+*.jpg
+*.JPG
+*.jpeg
+*.JPEG
+*.png
+*.PNG
+*.heic
+*.HEIC
+*.gif
+*.mp4
+*.MP4
+*.mov
+*.MOV
+
+# Referenzfotos und heruntergeladene Modelle
+referenzfotos/
+modelle/
+*.onnx
+*.zip
+
+# Ergebnis-, Zeit- und Protokolldateien (enthalten Dateinamen/Personen)
+foto_tags.json
+foto_tags*.txt
+foto_zeiten*.txt
+foto_abstaende*.txt
+exif_protokoll_*.txt
+sortierung_protokoll_*.txt
+auswertung_bericht*.txt
+auswertung_fehlerliste*.txt
+
+# Tabellen (manuelle Auswertungen)
+*.xlsx
+*.xls
+*.csv
+
+# Alte Versionen und Python-Zwischendateien
+alt/
+__pycache__/
+*.pyc
