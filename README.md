@@ -1,6 +1,6 @@
 # Fotoverwaltung – lokal und privat
 
-Eigene Python-Programme, um Familienfotos **ohne Cloud** zu verwalten: Personen
+Eigene Python-Programme, um Familienfotos **ohne Cloud** - also ausschließlich auf dem eigenen Rechner ! - zu verwalten: Personen
 per Gesichtserkennung erkennen (komplett offline), fehlende Aufnahmedaten
 nachtragen und alle Fotos nach `Jahr\Monat\Tag` sortieren.
 
