@@ -12,12 +12,12 @@ nachtragen und alle Fotos nach `Jahr\Monat\Tag` sortieren.
 
 | Datei | Zweck | Stand |
 |---|---|---|
-| `foto_pipeline_mit_gesichtserkennung.py` | Erkennt Personen auf Fotos, schreibt Tags (Personen, Datum) und Auswertungsdateien | **einsatzbereit** (Test: 550 von 562 Fotos komplett richtig) |
-| `modell_insightface.py` | Modernes Gesichtserkennungs-Modell (SCRFD + ArcFace), wird vom Tagging-Programm benutzt | einsatzbereit |
 | `exif_datum_nachtragen.py` | Trägt fehlende Aufnahmedaten ins EXIF ein (aus Dateiname, Ordner, Änderungsdatum) | in Arbeit, noch nicht auf echten Daten getestet |
-| `fotos_sortieren.py` | Sortiert Fotos/Videos nach Jahr\Monat\Tag, löst Duplikate auf | noch nicht auf echten Daten getestet |
+| `modell_insightface.py` | Modernes Gesichtserkennungs-Modell (SCRFD + ArcFace), wird vom Tagging-Programm benutzt | einsatzbereit |
 | `auswertung_erkennung.py` | Vergleicht manuelle Angaben (Excel) mit dem Programmergebnis | veraltet: kennt das aktuelle Excel-Layout und Markierungen pro Person noch nicht |
 | `einstellungen_privat_vorlage.py` | Vorlage für die persönlichen Einstellungen | – |
+| `foto_pipeline_mit_gesichtserkennung.py` | Erkennt Personen auf Fotos, schreibt Tags (Personen, Datum) und Auswertungsdateien | **einsatzbereit** (Test: 550 von 562 Fotos komplett richtig) |
+| `fotos_sortieren.py` | Sortiert Fotos/Videos nach Jahr\Monat\Tag, löst Duplikate auf | noch nicht auf echten Daten getestet |
 
 ## Einrichtung (Windows)
 
